@@ -21,8 +21,7 @@ The call center workflow is implemented using AWS Step Functions, which coordina
 ---
 
 ## Project Structure
-aws-call-center-workflow/
-├── README.md        # Project documentation
+├── README.md        
 ├── lambda/
 │   ├── OpenCaseFunction.js
 │   ├── AssignCaseFunction.js
