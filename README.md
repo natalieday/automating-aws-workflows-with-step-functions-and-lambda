@@ -20,19 +20,6 @@ The call center workflow is implemented using AWS Step Functions, which coordina
 
 ---
 
-## Project Structure
-├── README.md        
-├── lambda/
-│   ├── OpenCaseFunction.js
-│   ├── AssignCaseFunction.js
-│   ├── WorkOnCaseFunction.js
-│   ├── CloseCaseFunction.js
-│   └── EscalateCaseFunction.js
-└── step-functions/
-└── state-machine-definition.json
-
----
-
 ## How to Run This Project
 1. Deploy the Lambda functions in the AWS Lambda Console.
 2. Create an AWS Step Functions state machine and paste the state machine definition.
